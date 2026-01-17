@@ -63,22 +63,16 @@ body {
     height: 20px;
 }
 
-.header-right {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .cart-icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 28px;
     height: 28px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .cart-icon {
@@ -90,6 +84,10 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .secure-text {
@@ -682,7 +680,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0;
-    height: 289.14px;
+    min-height: 289.14px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
@@ -709,7 +707,7 @@ body {
 }
 
 .summary-agreement {
-    margin-top: 47px;
+    margin-top: 10px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -725,8 +723,8 @@ body {
     width: 248px;
     height: 1px;
     background-color: #E7E7E7;
-    margin-top: 19px;
-    margin-bottom: 12px;
+    margin-top: 10px;
+    margin-bottom: 8px;
     align-self: stretch;
 }
 
@@ -753,8 +751,8 @@ body {
 }
 
 .summary-total {
-    margin-top: 12px;
-    padding-top: 12px;
+    margin-top: 8px;
+    padding-top: 8px;
     border-top: 1px solid #E7E7E7;
 }
 
@@ -782,7 +780,6 @@ body {
     font-size: 18px;
     text-align: right;
     flex-shrink: 0;
-    position: absolute;
 }
 
 /* Additional refinements for exact match */
@@ -806,15 +803,15 @@ body {
         width: 100%;
         max-width: 1200px;
     }
-    
+
     .right-column {
         width: 100%;
     }
-    
+
     .order-summary-card {
         height: auto;
     }
-    
+
     .delivery-options {
         width: 100%;
         height: auto;
@@ -825,39 +822,39 @@ body {
     .header {
         padding: 0 10px;
     }
-    
+
     .secure-checkout {
         right: 10px;
     }
-    
+
     .secure-text {
         font-size: 18px;
         width: auto;
     }
-    
+
     .main-content {
         padding: 16px 10px;
     }
-    
+
     .product-details {
         flex-direction: column;
     }
-    
+
     .product-image-container {
         width: 100%;
         height: auto;
         max-height: 300px;
     }
-    
+
     .order-section {
         flex-direction: column;
         gap: 16px;
     }
-    
+
     .place-order-btn {
         width: 100%;
     }
-    
+
     .order-total-section {
         padding-left: 0;
     }
