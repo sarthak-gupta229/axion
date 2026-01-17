@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation - Amazon.in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Liberation+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="order-confirmation.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="logo">
+                    <span class="logo-text">amazon</span>
+                    <span class="logo-dot">.in</span>
+                </div>
+                <div class="delivery-address">
+                    <div class="delivery-label">
+                        <svg class="location-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M8 0C4.13 0 1 3.13 1 7C1 12.25 8 16 8 16C8 16 15 12.25 15 7C15 3.13 11.87 0 8 0ZM8 9.5C6.62 9.5 5.5 8.38 5.5 7C5.5 5.62 6.62 4.5 8 4.5C9.38 4.5 10.5 5.62 10.5 7C10.5 8.38 9.38 9.5 8 9.5Z" fill="#CCCCCC"/>
+                        </svg>
+                        <span class="delivery-text">Deliver to Yogye</span>
+                    </div>
+                    <div class="delivery-city">Agra 282007</div>
+                </div>
+            </div>
+            <div class="nav-center">
+                <div class="search-container">
+                    <button class="search-category">All</button>
+                    <input type="text" class="search-input" placeholder="Search Amazon.in">
+                    <button class="search-button">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                            <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="nav-item">
+                    <div class="nav-text">Hello, Yogye</div>
+                    <div class="nav-link">Account & Lists</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-text">Returns</div>
+                    <div class="nav-link">& Orders</div>
+                </div>
+                <div class="nav-item cart-item">
+                    <div class="cart-icon-wrapper">
+                        <svg class="cart-icon" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <path d="M5.77 20.94L2.33 20.94" stroke="#FFFFFF" stroke-width="2.33" stroke-linecap="round"/>
+                            <path d="M18.61 20.94L21.94 20.94" stroke="#FFFFFF" stroke-width="2.33" stroke-linecap="round"/>
+                            <path d="M0 0L23.38 0L23.38 16.33L0 16.33L0 0Z" fill="none" stroke="#FFFFFF" stroke-width="2.33"/>
+                        </svg>
+                        <span class="cart-count">3</span>
+                    </div>
+                    <div class="nav-link">Cart</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Menu -->
+    <div class="nav-menu">
+        <div class="nav-menu-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M1 1H15V15H1V1Z" stroke="#FFFFFF" stroke-width="1"/>
+            </svg>
+            <span>All</span>
+        </div>
+        <div class="nav-menu-item">MX Player</div>
+        <div class="nav-menu-item">Sell</div>
+        <div class="nav-menu-item">Amazon Pay</div>
+        <div class="nav-menu-item">Gift Cards</div>
+        <div class="nav-menu-item">Gift Ideas</div>
+        <div class="nav-menu-item">Buy Again</div>
+        <div class="nav-menu-item">AmazonBasics</div>
+        <div class="nav-menu-item">
+            <span>Browsing History</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M4.5 3L7.5 6L4.5 9" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"/>
+            </svg>
+        </div>
+        <div class="nav-menu-item">Yogye's Amazon.in</div>
+        <div class="nav-menu-item">
+            <span>Prime</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M4.5 3L7.5 6L4.5 9" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"/>
+            </svg>
+        </div>
+        <div class="nav-menu-item">Customer Service</div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="main-wrapper">
+            <div class="content-container">
+                <!-- Order Confirmation Section -->
+                <div class="order-confirmation-card">
+                <div class="confirmation-header">
+                    <div class="success-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="15" fill="#007600" stroke="#007600" stroke-width="2"/>
+                            <path d="M10 16L14 20L22 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h1 class="confirmation-title">Order placed, thank you!</h1>
+                </div>
+                <div class="confirmation-message">
+                    <span>Confirmation will be sent to </span>
+                    <a href="#" class="message-link">Message Centre</a>
+                    <span>.</span>
+                </div>
+                <div class="shipping-info">
+                    <strong>Shipping to Yogye Berry, R2 ganpati galaxy, Sikandra, AGRA, UTTAR PRADESH, 282007, India</strong>
+                </div>
+                <div class="delivery-info-section">
+                    <div class="delivery-date-info">
+                        <div class="delivery-date">Tuesday, 20 Jan</div>
+                        <div class="delivery-label-text">Delivery date</div>
+                        <a href="#" class="review-link">Review or edit your recent orders ></a>
+                    </div>
+                    <div class="product-image-placeholder">
+                        <img src="images/product-mask-56586a.png" alt="Product" class="product-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Prime Membership Section -->
+            <div class="prime-section">
+                <div class="prime-content">
+                    <div class="prime-header">
+                        <h2 class="prime-title">amazon prime</h2>
+                        <p class="prime-description">Get all of PRIME Shopping and Entertainment benefits</p>
+                        <p class="prime-price">for ₹299 FREE</p>
+                    </div>
+                    <div class="prime-benefits">
+                        <div class="prime-benefit">
+                            <div class="benefit-icon">🚚</div>
+                            <div class="benefit-text">FREE Same &<br>1-day delivery</div>
+                        </div>
+                        <div class="prime-benefit">
+                            <div class="benefit-icon">📺</div>
+                            <div class="benefit-text">4K/UHD<br>Prime Video</div>
+                        </div>
+                        <div class="prime-benefit">
+                            <div class="benefit-text">and<br>more</div>
+                        </div>
+                    </div>
+                    <button class="prime-button">Start your 30-day FREE trial</button>
+                </div>
+                <div class="prime-gradient"></div>
+            </div>
+
+            <!-- Continue Shopping Button -->
+            <div class="continue-shopping">
+                <button class="continue-btn">Continue shopping</button>
+            </div>
+
+            <!-- Browsing History Section -->
+            <div class="browsing-history">
+                <div class="history-header">
+                    <h2 class="history-title">Your browsing history</h2>
+                    <a href="#" class="history-link">View or edit your browsing history</a>
+                    <div class="history-page">Page 1 of 4</div>
+                </div>
+                <div class="history-items">
+                    <button class="nav-arrow left-arrow">
+                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+                            <path d="M8 2L4 6.5L8 11" stroke="#000000" stroke-width="1" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <div class="history-item">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=120&h=120&fit=crop" alt="Product" class="history-image">
+                    </div>
+                    <div class="history-item">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=120&h=120&fit=crop" alt="Product" class="history-image">
+                    </div>
+                    <div class="history-item">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff7?w=120&h=120&fit=crop" alt="Product" class="history-image">
+                    </div>
+                    <div class="history-item">
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=120&h=120&fit=crop" alt="Product" class="history-image">
+                    </div>
+                    <div class="history-item">
+                        <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=120&h=120&fit=crop" alt="Product" class="history-image">
+                    </div>
+                    <div class="history-item">
+                        <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=120&h=120&fit=crop" alt="Product" class="history-image">
+                    </div>
+                    <button class="nav-arrow right-arrow">
+                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+                            <path d="M5 2L9 6.5L5 11" stroke="#000000" stroke-width="1" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            </div>
+
+            <!-- Cart Sidebar -->
+            <div class="cart-sidebar">
+                <div class="cart-summary">
+                    <div class="cart-subtotal">
+                        <span>Subtotal</span>
+                        <span class="subtotal-amount">₹497.00</span>
+                    </div>
+                    <div class="cart-message">
+                        Add ₹300.00 of eligible items to your order to qualify for FREE Delivery.
+                    </div>
+                    <a href="#" class="cart-details">Details</a>
+                    <button class="cart-button">Go to Cart</button>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-item-row">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=140&h=140&fit=crop" alt="Product" class="cart-item-image">
+                        <div class="cart-item-info">
+                            <div class="limited-badge">Limited time</div>
+                            <div class="cart-item-price">₹199.00</div>
+                            <div class="cart-quantity">
+                                <button class="qty-btn">−</button>
+                                <span>1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-item-row">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=140&h=140&fit=crop" alt="Product" class="cart-item-image">
+                        <div class="cart-item-info">
+                            <div class="cart-item-price">₹99.00</div>
+                            <div class="cart-quantity">
+                                <button class="qty-btn">−</button>
+                                <span>1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-item-row">
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=140&h=140&fit=crop" alt="Product" class="cart-item-image">
+                        <div class="cart-item-info">
+                            <div class="cart-item-price">₹199.00</div>
+                            <div class="cart-quantity">
+                                <button class="qty-btn">−</button>
+                                <span>1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Back to Top -->
+    <div class="back-to-top">
+        <a href="#">Back to top</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Get to Know Us</h3>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">Amazon Science</a>
+            </div>
+            <div class="footer-column">
+                <h3>Connect with Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="footer-column">
+                <h3>Make Money with Us</h3>
+                <a href="#">Sell on Amazon</a>
+                <a href="#">Sell under Amazon Accelerator</a>
+                <a href="#">Protect and Build Your Brand</a>
+            </div>
+            <div class="footer-column">
+                <h3>Let Us Help You</h3>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
